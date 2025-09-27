@@ -13,7 +13,7 @@ Using lazy.nvim:
 
 ```lua
 {
-  'gjveld/likec4.nvim',
+ 'likec4/likec4.nvim',
   build = 'npm install -g @likec4/language-server'
 }
 ```
