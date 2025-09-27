@@ -13,7 +13,8 @@ Using lazy.nvim:
 
 ```lua
 {
-  'likec4/likec4.nvim',
+ 'likec4/likec4.nvim',
+  build = 'npm install -g @likec4/language-server'
 }
 ```
 
@@ -21,13 +22,6 @@ Using lazy.nvim:
 
 The plugin automatically detects `likec4` files (e.g., `file.c4`) and applies syntax highlighting and LSP features.
 
-## Dependencies
-
-You have to install likec4 language server manually:
-
-```sh
-npm install -g @likec4/language-server
-```
 
 ## License
 
