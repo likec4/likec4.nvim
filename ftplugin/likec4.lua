@@ -31,4 +31,6 @@ vim.cmd("hi default link @lsp.type.type Type")
 vim.cmd("hi default link @lsp.type.struct Struct")
 vim.cmd("hi default link @lsp.type.typeParameter TypeParameter")
 
+vim.bo.commentstring = "// %s"
+
 vim.lsp.enable("likec4")
